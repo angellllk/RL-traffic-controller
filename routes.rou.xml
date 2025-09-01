@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <vType id="car" vClass="passenger" length="5" maxSpeed="13.89" />
+
+    <flow id="302795167#0_right_warmup" type="car" begin="0" end="300" vehsPerHour="150" from="302795167#0" to="28050354#0" />
+    <flow id="302795167#0_forward_warmup" type="car" begin="0" end="300" vehsPerHour="250" from="302795167#0" to="8217902#0" />
+    <flow id="302795167#0_left_warmup" type="car" begin="0" end="300" vehsPerHour="100" from="302795167#0" to="302798182#0" />
+    <flow id="302795167#0_u_turn_warmup" type="car" begin="0" end="300" vehsPerHour="50" from="302795167#0" to="239653299" />
+    <flow id="26195549#0_left_warmup" type="car" begin="0" end="300" vehsPerHour="200" from="26195549#0" to="239653299" />
+    <flow id="26195549#0_forward_warmup" type="car" begin="0" end="300" vehsPerHour="250" from="26195549#0" to="302798182#0" />
+    <flow id="26195549#0_right_warmup" type="car" begin="0" end="300" vehsPerHour="50" from="26195549#0" to="8217902#0" />
+    <flow id="678011317_left_warmup" type="car" begin="0" end="300" vehsPerHour="200" from="678011317" to="28050354#0" />
+    <flow id="678011317_forward_warmup" type="car" begin="0" end="300" vehsPerHour="250" from="678011317" to="239653299" />
+    <flow id="678011317_right_warmup" type="car" begin="0" end="300" vehsPerHour="100" from="678011317" to="302798182#0" />
+    <flow id="242364261_left_warmup" type="car" begin="0" end="300" vehsPerHour="50" from="242364261" to="8217902#0" />
+    <flow id="242364261_forward_warmup" type="car" begin="0" end="300" vehsPerHour="200" from="242364261" to="28050354#0" />
+    <flow id="242364261_right_warmup" type="car" begin="0" end="300" vehsPerHour="70" from="242364261" to="239653299" />
+
+    <flow id="302795167#0_right_main" type="car" begin="301" end="3600" vehsPerHour="450" from="302795167#0" to="28050354#0" />
+    <flow id="302795167#0_forward_main" type="car" begin="301" end="3600" vehsPerHour="800" from="302795167#0" to="8217902#0" />
+    <flow id="302795167#0_left_main" type="car" begin="301" end="3600" vehsPerHour="300" from="302795167#0" to="302798182#0" />
+    <flow id="302795167#0_u_turn_main" type="car" begin="301" end="3600" vehsPerHour="150" from="302795167#0" to="239653299" />
+    <flow id="26195549#0_left_main" type="car" begin="301" end="3600" vehsPerHour="600" from="26195549#0" to="239653299" />
+    <flow id="26195549#0_forward_main" type="car" begin="301" end="3600" vehsPerHour="800" from="26195549#0" to="302798182#0" />
+    <flow id="26195549#0_right_main" type="car" begin="301" end="3600" vehsPerHour="150" from="26195549#0" to="8217902#0" />
+    <flow id="678011317_left_main" type="car" begin="301" end="3600" vehsPerHour="600" from="678011317" to="28050354#0" />
+    <flow id="678011317_forward_main" type="car" begin="301" end="3600" vehsPerHour="800" from="678011317" to="239653299" />
+    <flow id="678011317_right_main" type="car" begin="301" end="3600" vehsPerHour="300" from="678011317" to="302798182#0" />
+    <flow id="242364261_left_main" type="car" begin="301" end="3600" vehsPerHour="150" from="242364261" to="8217902#0" />
+    <flow id="242364261_forward_main" type="car" begin="301" end="3600" vehsPerHour="600" from="242364261" to="28050354#0" />
+    <flow id="242364261_right_main" type="car" begin="301" end="3600" vehsPerHour="200" from="242364261" to="239653299" />
+</routes>
